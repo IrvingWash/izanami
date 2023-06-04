@@ -21,12 +21,18 @@ module.exports = {
 		'no-trailing-spaces': ['error'],
 		'no-multiple-empty-lines': ['error', { max: 1 }],
 		'quotes': ['error', 'single'],
-		"space-infix-ops": ["error"],
-		'react/jsx-curly-spacing': ["error", {
-			"when": "always",
-			"children": {
-				"when": "always"
+		'space-infix-ops': ['error'],
+		'react/jsx-curly-spacing': ['error', {
+			'when': 'always',
+			'children': {
+				'when': 'always'
 			}
 		}],
+		'space-in-parens': ['error', 'never'],
+		'space-before-function-paren': ['error', 'never'],
+		'keyword-spacing': ['error'],
+		'space-before-blocks': ['error'],
+		'jsx-quotes': ['error', 'prefer-single'],
+		'react/jsx-tag-spacing': ['error'],
 	},
 };
