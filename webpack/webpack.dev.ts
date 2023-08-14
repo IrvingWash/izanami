@@ -5,7 +5,7 @@ const devConfig: Configuration = {
 	mode: 'development',
 	devServer: {
 		hot: true,
-		open: true,
+		open: false,
 		historyApiFallback: true,
 		allowedHosts: 'all',
 	} as DevServerConfiguration,
